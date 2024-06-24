@@ -1,0 +1,14 @@
+@use "../global" as *;
+
+.red-button {
+  @include centerFlex();
+  width: rem(250);
+  height: rem(60);
+  border-radius: rem(10);
+  background-color: var(--color-main-red);
+  color: white;
+  font-weight: var(--font-weight-bold);
+  font-size: rem(20);
+  transition: var(--transition-time);
+  box-shadow: 0 rem(25) rem(50) var(--color-shadow-red);
+}

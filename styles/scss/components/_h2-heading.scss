@@ -1,0 +1,18 @@
+@use "../global" as *;
+
+.h2-heading {
+  max-width: rem(550);
+  text-align: center;
+  margin: 0 auto rem(30);
+  grid-column: 1/-1;
+  h2 {
+    font-size: rem(35);
+    margin-block-end: rem(30);
+    @include maxLargeMobile {
+      font-size: rem(25);
+    }
+  }
+  p {
+    color: var(--color-secondary-text);
+  }
+}

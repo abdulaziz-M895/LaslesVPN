@@ -1,0 +1,13 @@
+@use "../global" as *;
+
+.logo {
+  @include alignCenterFlex;
+  gap: rem(10);
+  &__text {
+    font-weight: var(--font-weight-medium);
+    font-size: rem(20);
+  }
+  &__img {
+    width: rem(35px);
+  }
+}

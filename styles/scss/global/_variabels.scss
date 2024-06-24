@@ -1,0 +1,21 @@
+$max-mobile: 767px;
+$min-mobile: 768px;
+$min-medium: 992px;
+$max-medium: 991px;
+$min-large: 1441px;
+$max-large: 1440px;
+
+:root {
+  --color-main-pink: rgb(245, 56, 85);
+  --color-main-red: rgba(245, 56, 56, 1);
+  --color-secondary: #ffecec;
+  --color-main-text: #0b132a;
+  --color-secondary-text: rgb(79, 86, 101);
+  --color-shadow-red: rgba(245, 56, 56, 0.35);
+  --font-weight-bold: 700;
+  --font-weight-semi-bold: 700;
+  --font-weight-medium: 500;
+  --transition-time: 0.3s;
+  --border-active: 2px solid var(--color-main-red);
+  --border-not-active: 2px solid rgba(221, 221, 221, 1);
+}
